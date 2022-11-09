@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+body{
+    background-color: black;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    color: white;
+    text-align: center;
+    background-image: url(/img/background.png);
+}
+.logo{
+    font-weight: bolder;
+    font-size: 50px;
+    padding-right: 1050px;
+    display: inline-block;
+}
+.navlinks,li,a{
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    display: inline;
+    padding: 10px;
+    font-family: 'Orbitron', sans-serif;
+    transition: all 0.3s ease 0s;
+}
+.navlinks:hover,li:hover,a:hover{
+    color: #222c41;
+    transition: all 0.3s ease 0s;
+}
+.main{
+    font-family: 'Orbitron', sans-serif;
+    padding-top: 100px;
+}
+.underline:hover{
+    text-decoration: underline;
+    transition: all 0.3s ease 0s;
+}
+/*font-size: large;*/
